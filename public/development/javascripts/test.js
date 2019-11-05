@@ -1,1 +1,3 @@
-var sample=function(o){console.log(o)};
+var sample = function(message){
+  console.log(message);
+};
