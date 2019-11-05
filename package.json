@@ -10,5 +10,12 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "require-dir": "^1.2.0"
   }
 }
