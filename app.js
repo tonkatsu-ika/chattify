@@ -12,7 +12,11 @@ app.use("/public", express.static(staticFilePath));
 
 app.use("/", require("./routes/index.js"));
 
-app.use("/chats", require("./routes/chats.js"));
+//app.get("/chats/sample.html", (req, res)=>{
+//  res.render("./chats/sample");
+//});
+
+app.use("/chats/sample.html", require("./routes/index.js"));
 
 app.listen(port, ()=>{
   console.log(`listening on ${port}`);
