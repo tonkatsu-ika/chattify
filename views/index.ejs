@@ -1,10 +1,108 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   <meta charset="utf-8">
-  <title>chattify</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>chattify - be connected simply</title>
+  <link rel="stylesheet" href="reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  
+  <!-- ogp common settings -->
+  <meta property="og:title" content="chattify" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:image" content="#" />
+  <meta property="og:site_name" content="chattify" />
+  <meta property="og:description" content="chat app for new generations" />
+  <!-- ogp facebook -->
+  <meta property="fb:app_id" content="2700420446686684" />
+  <!-- ogp twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- favicon -->
+  <link rel="icon" href="favicon.png">
+  
 </head>
 <body>
-  <h1>hello world</h1>
+
+  <header class="header">
+    <div class="header-left">
+      <a href="#">
+        <span class="header-left__logo">
+          chattify
+        </span>
+      </a>
+    </div>
+    <div class="header-right">
+      <ul class="share-btns">
+        <a href="https://twiter.com/share?url=https://dvd.lifeuptokyo.com" rel="nofollow" target="_blank">
+          <li class="share-btns__btn">
+            <i class="fab fa-twitter"></i>
+          </li>
+        </a>
+        <a href="http://www.facebook.com/share.php?u={https://dvd.lifeuptokyo.com}" rel="nofollow" target="_blank">
+          <li class="share-btns__btn">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+        </a>
+        <a href="#">
+          <li class="share-btns__btn">
+            <i class="fab fa-line"></i>
+          </li>
+        </a>
+    </ul>
+    </div>
+  </header>
+
+  
+  <div class="main">
+    <div class="main-top">
+      <h2 class="main-top__catch-copy">
+        Get Connected - Very Simply!
+       </h2>
+      <p class="main-top__desc">-- chat app for new generations --</p>
+      <ul class="feature-list">
+        <li class="feature-list__feature">Easy To Start</li>
+        <li class="feature-list__feature">No User Registration</li>
+        <li class="feature-list__feature">Exprires In A Day</li>
+      </ul>
+    </div>
+    <div class="main-bottom">
+      <div class="form-container">
+        <form id="group-new" class="group-new" action="#" method="post">
+          <div class="group-new__label">Group Name</div>
+          <input class="group-new__input-box" type="text" name="group-name" placeholder="Please input group-name">
+          <div class="group-new__label">Keywords</div>
+          <input class="group-new__input-box" type="text" name="keywords" placeholder="Please input keywords(optional)">
+          <div class="group-new__btn">
+            Create Chattify
+          </div>
+        </form>
+    </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-menu-container">
+      <ul class="footer-menus">
+        <a href="#">
+          <li class="footer-menus__menu">Privacy Policy</li>
+        </a>
+        <a href="#">
+          <li class="footer-menus__menu">Terms of Use</li>
+        </a>
+        <a href="#">
+          <li class="footer-menus__menu">About</li>
+        </a>
+      </ul>
+    </div>
+    <div class="copyright">
+      Copyright 2019 - Tonkatsu Production
+    <div>
+  </footer>
 </body>
 </html>
