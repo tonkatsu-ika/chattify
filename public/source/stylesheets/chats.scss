@@ -1,0 +1,20 @@
+@import "./config/_variables";
+@import "./mixin/_mixins";
+@import "./modules/_common";
+@import "./modules/_header";
+@import "./modules/_chats-main";
+@import "./modules/_footer";
+
+/* for responsive design */
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+
+
+}
+
+/* Mobile */
+@media screen and (max-width: 479px) {
+  
+
+}

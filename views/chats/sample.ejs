@@ -8,7 +8,7 @@
   <title>chattify - be connected simply</title>
 
   <!-- stylesheets -->
-  <%- include("../_share/stylesheets.ejs"); %> 
+  <%- include("../_share/stylesheets-chats.ejs"); %> 
 
   <!-- ogp common settings -->
   <%- include("../_share/ogp.ejs"); %>
@@ -23,10 +23,13 @@
   <%- include("../_layouts/header.ejs"); %>
   
   <!-- main contents -->
-  <%- include("../index/main.ejs"); %>
+  <%- include("./_chat-main.ejs"); %>
   
   <!-- footer -->
   <%- include("../_layouts/footer.ejs"); %>
+
+  <!-- javascript -->
+  <%- include("../_share/javascripts.ejs"); %>
 
 </body>
 </html>

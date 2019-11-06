@@ -11,11 +11,6 @@ app.disable("x-powered-by");
 app.use("/public", express.static(staticFilePath));
 
 app.use("/", require("./routes/index.js"));
-
-//app.get("/chats/sample.html", (req, res)=>{
-//  res.render("./chats/sample");
-//});
-
 app.use("/chats/sample.html", require("./routes/index.js"));
 
 app.listen(port, ()=>{
