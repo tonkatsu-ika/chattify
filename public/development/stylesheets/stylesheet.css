@@ -171,7 +171,7 @@
   line-height: 63px;
 }
 
-.footer-menus {
+.footer-menu-container .footer-menus {
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -179,12 +179,12 @@
   letter-spacing: 1px;
 }
 
-.footer-menus a {
+.footer-menu-container .footer-menus a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
 }
 
-.footer-menus a:hover {
+.footer-menu-container .footer-menus a:hover {
   color: rgba(255, 255, 255, 0.8);
 }
 
