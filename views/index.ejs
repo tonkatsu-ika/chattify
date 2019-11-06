@@ -11,16 +11,7 @@
   <%- include("./_share/stylesheets.ejs"); %> 
 
   <!-- ogp common settings -->
-  <meta property="og:title" content="chattify" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="#" />
-  <meta property="og:image" content="#" />
-  <meta property="og:site_name" content="chattify" />
-  <meta property="og:description" content="chat app for new generations" />
-  <!-- ogp facebook -->
-  <meta property="fb:app_id" content="2700420446686684" />
-  <!-- ogp twitter -->
-  <meta name="twitter:card" content="summary_large_image" />
+  <%- include("./_share/ogp.ejs"); %>
 
   <!-- favicon -->
   <link rel="icon" href="favicon.png">
@@ -28,36 +19,10 @@
 </head>
 <body>
 
-  <header class="header">
-    <div class="header-left">
-      <a href="#">
-        <span class="header-left__logo">
-          chattify
-        </span>
-      </a>
-    </div>
-    <div class="header-right">
-      <ul class="share-btns">
-        <a href="https://twiter.com/share?url=https://dvd.lifeuptokyo.com" rel="nofollow" target="_blank">
-          <li class="share-btns__btn">
-            <i class="fab fa-twitter"></i>
-          </li>
-        </a>
-        <a href="http://www.facebook.com/share.php?u={https://dvd.lifeuptokyo.com}" rel="nofollow" target="_blank">
-          <li class="share-btns__btn">
-            <i class="fab fa-facebook-f"></i>
-          </li>
-        </a>
-        <a href="#">
-          <li class="share-btns__btn">
-            <i class="fab fa-line"></i>
-          </li>
-        </a>
-    </ul>
-    </div>
-  </header>
-
+  <!-- header -->
+  <%- include("./_layouts/header.ejs"); %>
   
+  <!-- main contents -->
   <div class="main">
     <div class="main-top">
       <h2 class="main-top__catch-copy">
