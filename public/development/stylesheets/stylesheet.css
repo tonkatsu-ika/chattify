@@ -99,7 +99,7 @@
 
 .feature-list__feature {
   padding: 10px 0;
-  color: black;
+  color: #000;
 }
 
 .main-bottom {
@@ -149,7 +149,7 @@
 }
 
 .group-new__btn:hover {
-  background: linear-gradient(-45deg, #f6ff00, rg ba(255, 0, 161, 1));
+  background: linear-gradient(-45deg, #f6ff00, #ff00a1);
   cursor: pointer;
 }
 
