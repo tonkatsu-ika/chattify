@@ -1,1 +1,0 @@
-var sample=function(o){console.log(o)};
