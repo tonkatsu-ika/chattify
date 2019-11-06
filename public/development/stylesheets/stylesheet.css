@@ -12,7 +12,6 @@
   display: flex;
   justify-content: space-between;
   background: linear-gradient(-45deg, rgba(246, 255, 0, 0.4), rgba(255, 0, 161, 0.4));
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .header-left {
@@ -21,7 +20,7 @@
 
 .header-left a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
 .header-left__logo {
@@ -36,22 +35,22 @@
   width: 30%;
 }
 
-.share-btns {
+.header-right .share-btns {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
-.share-btns a {
+.header-right .share-btns a {
   text-decoration: none;
-  color: black;
+  color: #000;
 }
 
-.share-btns__btn {
+.header-right .share-btns__btn {
   font-size: 24px;
 }
 
-.share-btns__btn:hover {
+.header-right .share-btns__btn:hover {
   color: #333;
 }
 

@@ -1,54 +1,10 @@
+@import "./config/_variables";
+
 * {
   box-sizing: border-box;
 }
 
-.header {
-  width: 100%;
-  height: 90px;
-  line-height: 90px;
-  position: fixed;
-  top: 0;
-  z-index: 2;
-
-  display: flex;
-  justify-content: space-between;
-
-  background: linear-gradient(-45deg, rgba(246, 255, 0, 0.4), rgba(255, 0, 161, 0.4));
-  background-color: rgba(255, 255, 255, 0.1);
-}
-.header-left {
-  padding: 0 20px;
-}
-.header-left a {
-  text-decoration: none;
-  color: black;
-}
-.header-left__logo {
-  font-family: 'Monoton', cursive;
-  font-size: 32px;
-  color: #000;
-  letter-spacing: 1px;
-}
-
-.header-right {
-  padding: 0 20px;
-  width: 30%;
-}
-.share-btns {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-.share-btns a {
-  text-decoration: none;
-  color: black;
-}
-.share-btns__btn {
-  font-size: 24px;
-}
-.share-btns__btn:hover {
-  color: #333;
-}
+@import "./modules/_header";
 
 
 

@@ -1,0 +1,55 @@
+.header {
+  width: 100%;
+  height: $header-height;
+  line-height: $header-height;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-between;
+
+  background: linear-gradient(-45deg, rgba(246, 255, 0, 0.4),     rgba(255, 0, 161, 0.4));
+}
+
+
+.header-left {
+  padding: 0 20px;
+
+  & a {
+    text-decoration: none;
+    color: $chattify-black;
+  }
+
+  &__logo {
+    font-family: 'Monoton', cursive;
+    font-size: 32px;
+    color: $chattify-black; 
+    letter-spacing: 1px;
+  }
+}
+
+
+.header-right {
+  padding: 0 20px;
+  width: 30%;
+
+  .share-btns {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  
+    & a {
+      text-decoration: none;
+      color: $chattify-black;
+    }
+  
+    &__btn {
+      font-size: 24px;
+    }
+  
+    &__btn:hover {
+      color: #333;
+    }
+  }
+}
