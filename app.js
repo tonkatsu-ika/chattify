@@ -13,5 +13,5 @@ app.use("/", require("./routes/index.js"));
 
 app.listen(port, ()=>{
   console.log(`listening on ${port}`);
-  console.log(`buildMode: ${staticFilePath}`);
+  console.log(`buildMode: ${buildMode}`);
 });
