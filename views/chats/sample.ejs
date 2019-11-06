@@ -8,10 +8,10 @@
   <title>chattify - be connected simply</title>
 
   <!-- stylesheets -->
-  <%- include("./_share/stylesheets.ejs"); %> 
+  <%- include("../_share/stylesheets.ejs"); %> 
 
   <!-- ogp common settings -->
-  <%- include("./_share/ogp.ejs"); %>
+  <%- include("../_share/ogp.ejs"); %>
 
   <!-- favicon -->
   <link rel="icon" href="public/images/favicon/favicon.png">
@@ -20,16 +20,13 @@
 <body>
 
   <!-- header -->
-  <%- include("./_layouts/header.ejs"); %>
+  <%- include("../_layouts/header.ejs"); %>
   
   <!-- main contents -->
-  <%- include("./index/main.ejs"); %>
+  <%- include("../_index/main.ejs"); %>
   
   <!-- footer -->
-  <%- include("./_layouts/footer.ejs"); %>
+  <%- include("../_layouts/footer.ejs"); %>
 
-  <!-- javascripts -->
-  <%- include("./_share/javascripts.ejs"); %>
-  
 </body>
 </html>
