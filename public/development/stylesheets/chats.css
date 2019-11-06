@@ -121,6 +121,38 @@
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  position: relative;
+}
+
+.message-container .message-contents .messages {
+  width: 100%;
+  overflow: scroll;
+}
+
+.message-container .message-contents .messages__message {
+  background-color: transparent;
+  border: 1px dotted #888;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  line-height: 180%;
+  padding: 15px;
+  text-align: left;
+}
+
+.message-container .message-contents .post-form {
+  width: 90%;
+  height: 80px;
+  line-height: 80px;
+  position: absolute;
+  bottom: 0;
+}
+
+.message-container .message-contents .post-form__new-message {
+  width: 90%;
+  height: 45px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 .footer {
