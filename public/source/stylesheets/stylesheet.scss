@@ -1,8 +1,6 @@
 @import "./config/_variables";
 
-* {
-  box-sizing: border-box;
-}
+@import "./modules/_common";
 
 @import "./modules/_header";
 
