@@ -43,5 +43,7 @@ $(document).ready(function(){
   socketio.on("message", function(msg){
     var html = buildHTML(msg);
     $(".messages").append(html);
+    $(".messages").animate({scrollTop:$(".messages").height()}, 100);
+    return false;
   });
 });
