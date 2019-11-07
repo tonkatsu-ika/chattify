@@ -30,7 +30,7 @@ $(document).ready(function(){
   // posting a message from client to server
   $("#new-message").keydown(function(e){
 
-    if (e.keyCode === 13) {
+    if (e.keyCode === 13 && $("#new-message").val() !== "") {
 
       socketio.emit("message", $("#new-message").val());
       $("#new-message").val("");
