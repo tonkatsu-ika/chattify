@@ -18,6 +18,7 @@ app.use("/chats/sample.html", require("./routes/index.js"));
 io.on("connection", function(socket){
   socket.on("message", function(msg){
     console.log("message: " + msg);
+    io.emit("message", msg);
   });
 });
 
