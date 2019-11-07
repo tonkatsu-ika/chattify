@@ -2,8 +2,7 @@
 var socketio = io();
 
 var buildHTML = function(msg){
-  var html = 
-    `
+  var html =  `
         <div class="messages__message">
           <div class="message-content__user">
             <div class="message-content__user--avatar">
